@@ -8,9 +8,10 @@ import YDUI from 'vue-ydui';
 import 'vue-ydui/dist/ydui.rem.css';
 /* 使用px：import 'vue-ydui/dist/ydui.px.css'; */
 
+import '@/plugins/axios'
 import 'view-design/dist/styles/iview.css';
 import 'flex.css'
-import '@/plugins/axios'
+import '@/theme/index.less'
 
 Vue.use(ViewUI);
 Vue.use(YDUI);
@@ -20,24 +21,23 @@ import lodash from 'lodash'
 Vue.prototype._ = lodash
 
 if (process.env.NODE_ENV === 'development') {
-    require('@/mock')
+  require('@/mock')
 }
 
 Vue.config.productionTip = false
 
 router.beforeEach((to, from, next) => {
-    ViewUI.LoadingBar.start();
-    Util.title(to.meta.title);
-    next();
+  ViewUI.LoadingBar.start();
+  Util.title(to.meta.title);
+  next();
 });
 
 router.afterEach((to, from, next) => {
-    ViewUI.LoadingBar.finish();
-    window.scrollTo(0, 0);
+  ViewUI.LoadingBar.finish();
 });
 
 new Vue({
-    store,
-    router,
-    render: h => h(App),
+  store,
+  router,
+  render: h => h(App),
 }).$mount('#app')

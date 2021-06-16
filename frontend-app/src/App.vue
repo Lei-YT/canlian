@@ -13,7 +13,7 @@ export default {
       duration: 3,
     });
     console.log(
-      `%c 残联 %c ${this.version} %c`,
+      `%c 残健共融 %c ${this.version} %c`,
       "background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff",
       "background:#41b883 ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff",
       "background:transparent"
@@ -213,6 +213,5 @@ ul.ivu-menu-vertical li.ivu-menu-submenu-title{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
