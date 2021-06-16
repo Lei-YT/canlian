@@ -9,7 +9,6 @@ import 'vue-ydui/dist/ydui.base.css';
 import '@/plugins/axios'
 import '@/plugins/layout'
 import 'view-design/dist/styles/iview.css';
-import 'flex.css'
 import '@/theme/index.less'
 
 Vue.use(ViewUI);
