@@ -16,3 +16,6 @@ composer.lock
 .svn
 .vscode
 node_modules
+/frontend
+**/*.zip
+**/*.rar
