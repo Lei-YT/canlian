@@ -3468,10 +3468,6 @@ flatted@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.2.tgz#4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
 
-flex.css@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/flex.css/-/flex.css-1.1.7.tgz#fd5942eb106d2b25bb3634ddd10b9497af1f3bac"
-
 flush-write-stream@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/flush-write-stream/-/flush-write-stream-1.1.1.tgz#8dd7d873a1babc207d94ead0c2e0e44276ebf2e8"
@@ -7608,6 +7604,10 @@ yargs@^16.0.0:
     string-width "^4.2.0"
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
+
+ydui-district@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/ydui-district/-/ydui-district-1.1.0.tgz#fb9c4f871541d232c7880de3f9e1acfc7b39faa3"
 
 yorkie@^2.0.0:
   version "2.0.0"

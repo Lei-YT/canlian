@@ -33,7 +33,7 @@
         </h1>
         <h2>
           <p>Welcome to your View UI app!</p>
-          <Button @click="handleStart">Start View UI</Button>
+          <Button @click="toLink('login')">Start View UI</Button>
         </h2>
       </Col>
     </Row>
