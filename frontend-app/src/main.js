@@ -4,11 +4,16 @@ import Util from './libs/util';
 import store from '@/store'
 import router from './router'
 import ViewUI from 'view-design';
+import YDUI from 'vue-ydui';
+import 'vue-ydui/dist/ydui.rem.css';
+/* 使用px：import 'vue-ydui/dist/ydui.px.css'; */
+
 import 'view-design/dist/styles/iview.css';
 import 'flex.css'
 import '@/plugins/axios'
 
 Vue.use(ViewUI);
+Vue.use(YDUI);
 import mixins from '@/mixins'
 Vue.mixin(mixins)
 import lodash from 'lodash'
