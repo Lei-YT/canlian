@@ -1,8 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Util from '@/libs/util';
 
 Vue.use(VueRouter)
 const routes = [
+  {
+    path: '*',
+    redirect: '/'
+  },
   {
     path: '/',
     name: 'home',
@@ -12,7 +17,6 @@ const routes = [
     component: (resolve) => require(['@/views/index.vue'], resolve)
   },
   {
-    path: '/login',
     name: 'login',
     meta: {
       title: ''
@@ -20,6 +24,10 @@ const routes = [
     component: (resolve) => require(['@/views/login.vue'], resolve)
   }
 ];
+// add route path
+routes.forEach(route => {
+  route.path = route.path || '/' + (route.name || '');
+});
 const router = new VueRouter({
   routes: routes,
   scrollBehavior(to, from, savedPosition) {
@@ -30,5 +38,14 @@ const router = new VueRouter({
     }
   }
 })
+router.beforeEach((to, from, next) => {
+  // ViewUI.LoadingBar.start();
+  Util.title(to.meta.title);
+  next();
+});
+
+router.afterEach((to, from, next) => {
+  // ViewUI.LoadingBar.finish();
+});
 
 export default router

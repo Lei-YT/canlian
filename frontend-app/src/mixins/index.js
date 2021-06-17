@@ -9,7 +9,7 @@ const Mixin = {
   computed: {
 
     version() {
-      return 'V' + ' ' + this.$store.state.version
+      return 'v' + this.$store.state.version
     },
     // token() {
     //     return this.$store.state.token
@@ -21,18 +21,21 @@ const Mixin = {
 
   methods: {
     _M(msg) {
-      this.$Message.info(msg);
-    },
-    _N(msg, title) {
-      this.$Notice.warning({
-        title: title ? title : '温馨提示',
-        desc: msg
+      this.$notify({
+        type: 'primary',
+        message: msg
       });
     },
-    _Model(msg, title) {
-      this.$Modal.success({
+    _N(msg) {
+      this.$notify({
+        type: 'warning',
+        message: msg
+      });
+    },
+    _Modal(msg, title) {
+      this.$dialog.alert({
         title: title ? title : '温馨提示',
-        content: msg
+        message: msg
       });
     },
     toLink(name) {

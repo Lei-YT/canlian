@@ -1,10 +1,10 @@
 <template>
-  <yd-layout>
-    <yd-navbar :title="title" slot="navbar">
-      <yd-navbar-back-icon slot="left" @click.native="back" />
-    </yd-navbar>
-    <slot></slot>
-  </yd-layout>
+  <div class="page">
+    <van-nav-bar :title="title" left-arrow :fixed="true" @click-left="back" />
+    <section class="page-content">
+      <slot></slot>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -13,5 +13,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang="less">
+.page-content {
+  margin-top: @nav-bar-height;
+}
 </style>

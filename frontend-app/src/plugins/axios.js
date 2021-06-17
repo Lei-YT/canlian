@@ -34,7 +34,6 @@ _axios.interceptors.request.use(
   }
 );
 
-var errMsg = "";
 // Add a response interceptor
 _axios.interceptors.response.use(
   function (response) {
@@ -42,9 +41,9 @@ _axios.interceptors.response.use(
     if (response.data.status == 200) {
       return response;
     } else if (response.data.status == 409 || response.data.status == 401 || response.data.status == 402) {
-      Vue.prototype.$Notice.warning({
-        title: '温馨提示',
-        desc: response.data.message + '，请重新登陆！'
+      Vue.prototype.$notify({
+        type: 'warning',
+        message: response.data.message + '，请重新登陆！'
       });
 
       //   store.commit("token", "");
@@ -63,9 +62,9 @@ _axios.interceptors.response.use(
         msgStr = `<p>${response.data.message}</p>`
       }
       if (dataStr || msgStr) {
-        Vue.prototype.$Notice.warning({
-          title: '温馨提示',
-          desc: ` ${msgStr}${dataStr}`
+        Vue.prototype.$notify({
+          type: 'warning',
+          message: ` ${msgStr}${dataStr}`
         });
       }
       return response;
@@ -147,9 +146,9 @@ _axios.interceptors.response.use(
       err.message = "连接到服务器失败"
     }
 
-    Vue.prototype.$Notice.warning({
-      title: '温馨提示',
-      desc: err.message
+    Vue.prototype.$notify({
+      type: 'warning',
+      message: err.message
     });
     // console.log(`%c ${err.message} Status code:${err.response.status} %c ${self.location.href}`, "background:red ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff;border:red 1px solid", "background:#fff ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff;border:red 1px solid")
     return Promise.reject(err.response)

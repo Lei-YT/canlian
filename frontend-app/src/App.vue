@@ -8,10 +8,9 @@
 export default {
   name: "app",
   created() {
-    this.$Notice.config({
-      top: 50,
-      duration: 3,
-    });
+    this.$notify.setDefaultOptions({
+      duration: 3000,
+    })
     console.log(
       `%c 残健共融 %c ${this.version} %c`,
       "background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff",
@@ -26,34 +25,6 @@ export default {
 <style>
 [v-cloak] {
   display: none;
-}
-
-div.ivu-table-wrapper {
-  position: relative;
-  border: 1px solid #eee;
-  border-bottom: 0;
-  border-right: 0;
-}
-div.ivu-table-border th {
-  border-right: 1px solid #eee;
-}
-div.ivu-table td,
-div.ivu-table th {
-  border-bottom: 1px solid #eee;
-}
-div.ivu-table th {
-  background-color: #fcfcfc;
-  color: #999;
-}
-div.ivu-table-border td,
-div.ivu-table-border th {
-  border-right: 1px solid #eee;
-}
-div.ivu-table:after {
-  background-color: #eee;
-}
-div.ivu-table:before {
-  background-color: #eee;
 }
 
 #app {
@@ -190,19 +161,6 @@ div.ivu-table:before {
   padding: 0 0 8px 0;
 }
 
-ul.ivu-menu-light.ivu-menu-vertical
-  li.ivu-menu-item-active.ivu-menu-item-selected {
-  background-color: #eee;
-}
-/* ul.ivu-menu-vertical li.ivu-menu-item,
-ul.ivu-menu-vertical li.ivu-menu-submenu-title{
-  padding:14px 24px
-
-} */
-
-.ivu-table-tbody tr td.vertical-align {
-  vertical-align: top;
-}
 </style>
 
 
