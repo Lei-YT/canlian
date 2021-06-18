@@ -22,7 +22,14 @@ const routes = [
       title: ''
     },
     component: (resolve) => require(['@/views/login.vue'], resolve)
-  }
+  },
+  {
+    name: 'my',
+    meta: {
+      title: ''
+    },
+    component: (resolve) => require(['@/views/my.vue'], resolve)
+  },
 ];
 // add route path
 routes.forEach(route => {

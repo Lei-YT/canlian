@@ -4,6 +4,9 @@ import store from '@/store'
 import router from './router'
 import Vant from 'vant';
 import 'vant/lib/index.css';
+import 'vue-ydui/dist/ydui.base.css';
+
+import 'flex.css'
 
 Vue.use(Vant);
 
@@ -11,7 +14,6 @@ import '@/plugins/axios'
 import '@/plugins/layout'
 import '@/theme/index.less'
 
-import 'vue-ydui/dist/ydui.base.css';
 
 import mixins from '@/mixins'
 Vue.mixin(mixins)

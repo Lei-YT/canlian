@@ -16,7 +16,7 @@ h2 {
 <template>
   <indexPage>
     <h1>
-      <img src="../images/logo.png" height="1200" />
+      <img src="../assets/logo.png" height="1200" />
     </h1>
     <p>Welcome !</p>
     <van-button :to="{ name: 'login' }" plain type="primary">Login</van-button>

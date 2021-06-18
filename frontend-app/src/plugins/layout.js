@@ -20,4 +20,4 @@ Vue.component('tabbarBottom',tabbarBottom)
 import {Layout} from 'vue-ydui/dist/lib.rem/layout';
 /* 使用px：import {Layout} from 'vue-ydui/dist/lib.px/layout'; */
 
-Vue.component(Layout.name, Layout);
+Vue.component('Layout', Layout);
