@@ -11,6 +11,8 @@ import '@/plugins/axios'
 import '@/plugins/layout'
 import '@/theme/index.less'
 
+import 'vue-ydui/dist/ydui.base.css';
+
 import mixins from '@/mixins'
 Vue.mixin(mixins)
 

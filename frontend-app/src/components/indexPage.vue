@@ -1,9 +1,11 @@
 <template>
   <div class="indexPage">
-    <section class="page-content">
-      <slot></slot>
-    </section>
-    <tabbarBottom />
+    <yd-layout>
+      <section class="page-content">
+        <slot></slot>
+      </section>
+      <tabbarBottom slot="tabbar" />
+    </yd-layout>
   </div>
 </template>
 
