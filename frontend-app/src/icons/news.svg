@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="130px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>惠民新闻</title>
+    <defs>
+        <circle id="path-1" cx="57" cy="57" r="57"></circle>
+        <filter x="-11.4%" y="-9.6%" width="122.8%" height="122.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.102135291 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-52.000000, -702.000000)">
+            <g id="编组-18" transform="translate(30.000000, 562.000000)">
+                <g id="惠民新闻" transform="translate(30.000000, 146.000000)">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="编组-3" transform="translate(27.000000, 25.000000)">
+                        <path d="M43,25 L53,25 C57.9705627,25 62,29.0294373 62,34 L62,56 C62,60.9705627 57.9705627,65 53,65 L43,65 C41.8954305,65 41,64.1045695 41,63 L41,27 C41,25.8954305 41.8954305,25 43,25 Z" id="矩形" fill="#80B7F9"></path>
+                        <path d="M43,0 C48.5228475,-1.01453063e-15 53,4.4771525 53,10 L53,55 C53,60.5228475 48.5228475,65 43,65 L10,65 C4.4771525,65 5.58162771e-15,60.5228475 0,55 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 L43,0 Z M29.5,41 L15.5,41 C13.5670034,41 12,42.5670034 12,44.5 C12,46.4329966 13.5670034,48 15.5,48 L15.5,48 L29.5,48 C31.4329966,48 33,46.4329966 33,44.5 C33,42.5670034 31.4329966,41 29.5,41 L29.5,41 Z M29.5,27 L15.5,27 C13.5670034,27 12,28.5670034 12,30.5 C12,32.4329966 13.5670034,34 15.5,34 L15.5,34 L29.5,34 C31.4329966,34 33,32.4329966 33,30.5 C33,28.5670034 31.4329966,27 29.5,27 L29.5,27 Z M39.5,12 L15.5,12 C13.5670034,12 12,13.5670034 12,15.5 C12,17.4329966 13.5670034,19 15.5,19 L15.5,19 L39.5,19 C41.4329966,19 43,17.4329966 43,15.5 C43,13.5670034 41.4329966,12 39.5,12 L39.5,12 Z" id="形状结合" fill="#80B7F9"></path>
+                        <path d="M53,25 L53,55 C53,60.5228475 48.5228475,65 43,65 C41.8954305,65 41,64.1045695 41,63 L41,27 C41,25.8954305 41.8954305,25 43,25 L53,25 Z" id="形状结合" fill="#3E8BF8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

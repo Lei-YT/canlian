@@ -13,6 +13,7 @@ Vue.use(Vant);
 import '@/plugins/axios'
 import '@/plugins/layout'
 import '@/theme/index.less'
+import '@/icons'
 
 
 import mixins from '@/mixins'

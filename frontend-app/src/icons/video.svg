@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="48px" viewBox="0 0 49 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>短视频</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-351.000000, -2151.000000)">
+            <g id="编组-29" transform="translate(345.500000, 2151.000000)">
+                <g id="短视频" transform="translate(6.000000, 0.000000)">
+                    <rect id="矩形" x="0" y="0" width="48" height="48"></rect>
+                    <g id="编组-17" transform="translate(5.000000, 6.000000)">
+                        <path d="M18,0 C27.9411255,0 36,8.0588745 36,18 C36,22.1600906 34.5887341,25.9905623 32.2188422,29.0387754 L35.9,31.8 C36.5627417,32.2970563 36.6970563,33.2372583 36.2,33.9 C35.7321823,34.5237569 34.8718203,34.6794261 34.219688,34.2811827 L34.1,34.2 L30.175657,31.2573379 C26.9708906,34.2021723 22.6953979,36 18,36 C8.0588745,36 1.42108547e-14,27.9411255 1.42108547e-14,18 C1.42108547e-14,8.0588745 8.0588745,0 18,0 Z M18,3 C9.71572875,3 3,9.71572875 3,18 C3,26.2842712 9.71572875,33 18,33 C26.2842712,33 33,26.2842712 33,18 C33,9.71572875 26.2842712,3 18,3 Z" id="形状结合" fill="#021408" fill-rule="nonzero"></path>
+                        <g id="编组-16" transform="translate(8.000000, 8.000000)" fill="#00CE3F">
+                            <circle id="椭圆形" cx="10" cy="3" r="3"></circle>
+                            <circle id="椭圆形备份-3" cx="3" cy="10" r="3"></circle>
+                            <circle id="椭圆形备份-4" cx="10" cy="17" r="3"></circle>
+                            <circle id="椭圆形备份-5" cx="17" cy="10" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

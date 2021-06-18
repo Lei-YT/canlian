@@ -10,36 +10,48 @@
         :src="avatar"
       />
       <div class="user-info" flex-box="1">
-        <p class="user-name">name</p>
-        <p class="user-locate">address</p>
+        <p class="user-name">{{ userName }}</p>
+        <p class="user-locate">{{ userAddress }}</p>
       </div>
     </div>
-    <div class="user-action-list" >
-      <!-- <van-cell-group> -->
-      <van-cell value="我的消息" icon="chat-o" is-link />
-      <van-cell value="我的学习" icon="notes-o" is-link />
-      <van-cell value="我的足迹" icon="location-o" is-link />
-      <!-- </van-cell-group> -->
+    <div class="user-action-list">
+      <van-cell value="我的消息" icon="chat-o" is-link>
+        <template #icon>
+          <svg-icon icon-class="msg" />
+        </template>
+      </van-cell>
+      <van-cell value="我的学习" icon="notes-o" is-link>
+        <template #icon>
+          <svg-icon icon-class="learn" />
+        </template>
+      </van-cell>
+      <van-cell value="我的足迹" icon="location-o" is-link>
+        <template #icon>
+          <svg-icon icon-class="locate" />
+        </template>
+      </van-cell>
     </div>
   </myIndexPage>
 </template>
 
 <script>
 export default {
-  data(){
+  data() {
     return {
       // avatar: require("@/assets/logo.png")
-      avatar: "https://img01.yzcdn.cn/vant/cat.jpeg"
-    }
-  }
+      avatar: "https://img01.yzcdn.cn/vant/cat.jpeg",
+      userName: "Name",
+      userAddress: "Address",
+    };
+  },
 };
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .user-card {
   height: 200px;
   padding: 1em;
-  background: url('../assets/user-card-bg.svg') no-repeat ;
+  background: url("../assets/user-card-bg.svg") no-repeat;
   background-size: cover;
   background-color: @primary-color;
   color: @white;
@@ -58,9 +70,15 @@ export default {
 }
 .user-action-list {
   padding: 1.5em;
-  .van-cell{
+  .van-cell {
     border-radius: @border-radius-lg;
     margin-bottom: 1.5em;
+  }
+  .svg-icon {
+    width: 1em;
+    height: 24px;
+    line-height: 24px;
+    margin-right: @padding-base;
   }
 }
 </style>

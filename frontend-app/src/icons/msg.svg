@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>消息</title>
+    <defs>
+        <linearGradient x1="90.1846568%" y1="75.9091695%" x2="11.4480019%" y2="20.0989087%" id="linearGradient-1">
+            <stop stop-color="#C9FFE4" offset="0%"></stop>
+            <stop stop-color="#00CE3F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人中心" transform="translate(-60.000000, -424.000000)">
+            <g id="信息展示:40/卡片列表(圆角)CardList:3/基础:1/样式:单行不带图" transform="translate(30.000000, 400.000000)">
+                <g id="消息" transform="translate(30.000000, 24.000000)">
+                    <rect id="矩形" x="0" y="0" width="48" height="48" rx="10"></rect>
+                    <g id="编组-18" transform="translate(2.000000, 1.000000)">
+                        <circle id="椭圆形" fill="url(#linearGradient-1)" opacity="0.396947952" cx="33" cy="34" r="12"></circle>
+                        <path d="M23,2 C28.2467051,2 32.9967051,4.12664744 36.4350288,7.56497116 C39.8733526,11.0032949 42,15.7532949 42,21 C42,26.2467051 39.8733526,30.9967051 36.4350288,34.4350288 C32.9967051,37.8733526 28.2467051,40 23,40 L23,40 L2,40 L2,21 C2,15.7532949 4.12664744,11.0032949 7.56497116,7.56497116 C11.0032949,4.12664744 15.7532949,2 21,2 L21,2 Z" id="矩形" stroke="#021408" stroke-width="4"></path>
+                        <circle id="椭圆形" fill="#021408" cx="13.5" cy="21.5" r="3.5"></circle>
+                        <circle id="椭圆形备份-6" fill="#021408" cx="22.5" cy="21.5" r="3.5"></circle>
+                        <circle id="椭圆形备份-7" fill="#021408" cx="31.5" cy="21.5" r="3.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

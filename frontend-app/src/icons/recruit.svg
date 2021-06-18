@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="130px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>招聘培训</title>
+    <defs>
+        <circle id="path-1" cx="57" cy="57" r="57"></circle>
+        <filter x="-11.4%" y="-9.6%" width="122.8%" height="122.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.102135291 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-396.000000, -702.000000)">
+            <g id="编组-18" transform="translate(30.000000, 562.000000)">
+                <g id="招聘培训" transform="translate(374.000000, 146.000000)">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="编组-5" transform="translate(27.000000, 25.000000)">
+                        <circle id="椭圆形" fill="#80B7F9" cx="28" cy="15" r="15"></circle>
+                        <circle id="椭圆形" fill="#80B7F9" cx="47" cy="50" r="14"></circle>
+                        <path d="M22,32 L34,32 C46.1502645,32 56,41.8497355 56,54 C56,58.418278 52.418278,62 48,62 L8,62 C3.581722,62 5.41083001e-16,58.418278 0,54 L0,54 L0,54 C0,41.8497355 9.8497355,32 22,32 Z" id="矩形" fill="#80B7F9"></path>
+                        <path d="M56,54 C56,58.418278 52.418278,62 48,62 L39.7858569,62.0006207 C35.7196237,59.5509587 33,55.0930804 33,50 C33,42.3819069 39.0847158,36.1849754 46.659288,36.0040647 C52.309366,39.987098 56,46.5625521 56,54 Z" id="形状结合" fill="#3E8BF8"></path>
+                        <path d="M47,43 C48.6568542,43 50,44.3431458 50,46 L50,47 L51,47 C52.6568542,47 54,48.3431458 54,50 C54,51.6568542 52.6568542,53 51,53 L50,53 L50,54 C50,55.6568542 48.6568542,57 47,57 C45.3431458,57 44,55.6568542 44,54 L44,53 L43,53 C41.3431458,53 40,51.6568542 40,50 C40,48.3431458 41.3431458,47 43,47 L44,47 L44,46 C44,44.3431458 45.3431458,43 47,43 Z" id="形状结合" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
